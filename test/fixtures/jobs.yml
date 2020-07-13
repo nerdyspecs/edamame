@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  services: one
+  job_type: 1
+
+two:
+  services: two
+  job_type: 1
