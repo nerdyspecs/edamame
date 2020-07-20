@@ -4,3 +4,10 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+require 'progress_graph_json'
+
+task :hello_world do
+	include ProgressGraphJson
+	puts add(1,2)
+end
